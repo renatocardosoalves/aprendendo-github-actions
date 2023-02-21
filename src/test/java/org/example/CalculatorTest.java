@@ -10,7 +10,7 @@ class CalculatorTest {
     @Test
     void testSum() {
         var calculator = new Calculator();
-        var result = calculator.sum(5.0, 2.0);
+        var result = calculator.sum(5.0, 5.0);
         Assertions.assertEquals(10.0, result);
     }
 
